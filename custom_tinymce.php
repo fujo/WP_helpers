@@ -26,10 +26,11 @@ function custom_TinyMCE( $in ) {
 	$in['toolbar1'] = 'bold,italic,strikethrough,bullist,numlist,blockquote,hr,alignleft,aligncenter,alignright,link,unlink,wp_more,spellchecker,wp_fullscreen,wp_adv ';
 	$in['toolbar2'] = 'formatselect,underline,alignjustify,forecolor,pastetext,removeformat,charmap,outdent,indent,undo,redo,wp_help ';
  	*/
+ 	
 	$in['plugins'] = 'wplink,paste';
     
-    // Define the blockformat
-    $in['block_formats'] = 'Paragraph=p; Heading h2=h2';
+    	// Define the blockformat
+    	$in['block_formats'] = 'Paragraph=p; Heading h2=h2';
 	
 	// Define the style_formats array
 	$style_formats = array(  
